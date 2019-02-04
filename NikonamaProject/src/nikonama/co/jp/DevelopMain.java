@@ -11,11 +11,9 @@ public class DevelopMain {
 		bean.setName("いっしー");
 		bean.setMail("info@mail");
 
+		// 入力チェック実行
 		InputValidate validate = new InputValidate(bean);
 		validate.inputCheck();
-
-
-
 	}
 
 }
